@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fortnite-vision"
+version = "0.1.0"
+description = "A Windows desktop OCR monitor for a user-selected on-screen log region."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "keyring>=25.0.0",
+    "mss>=10.0.0",
+    "numpy>=1.26.0",
+    "opencv-python>=4.5.0",
+    "Pillow>=10.0.0",
+    "PyQt6>=6.6.0",
+    "rapidocr>=3.9.0",
+    "onnxruntime>=1.17.0",
+]
+
+[project.scripts]
+droid-monitor = "droid_monitor.app:main"
+
+[tool.setuptools.packages.find]
+include = ["droid_monitor*"]
+
+[tool.setuptools.package-data]
+droid_monitor = ["assets/*.png"]

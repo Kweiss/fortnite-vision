@@ -1,0 +1,56 @@
+{
+  "monitor_index": 1,
+  "crop": {
+    "x": 40,
+    "y": 640,
+    "width": 780,
+    "height": 220
+  },
+  "scan_interval_seconds": 2.0,
+  "spawn_ocr_mode": "observe",
+  "alert_cooldown_seconds": 45.0,
+  "test_mode": false,
+  "always_on_top": false,
+  "jawa_enabled": false,
+  "jawa_crop": {
+    "x": 2900,
+    "y": 750,
+    "width": 600,
+    "height": 600
+  },
+  "jawa_match_threshold": 0.62,
+  "rebirth_ready_enabled": true,
+  "rebirth_ready_crop": {
+    "x": 1650,
+    "y": 1760,
+    "width": 750,
+    "height": 220
+  },
+  "rebirth_ready_match_threshold": 0.7,
+  "rebirth_progress_enabled": true,
+  "rebirth_hud_crop": {
+    "x": 40,
+    "y": 1760,
+    "width": 1110,
+    "height": 210
+  },
+  "telegram_enabled": false,
+  "telegram_chat_id": "",
+  "alert_rule_version": 2,
+  "enabled_rule_ids": [
+    "stellar_mythic",
+    "stellar_legendary",
+    "stellar_epic",
+    "galatic_mythic",
+    "galatic_legendary",
+    "galatic_epic",
+    "beskar_mythic",
+    "beskar_legendary",
+    "beskar_epic",
+    "rainbow_mythic",
+    "rainbow_legendary",
+    "rainbow_epic",
+    "diamond_mythic",
+    "diamond_legendary"
+  ]
+}
